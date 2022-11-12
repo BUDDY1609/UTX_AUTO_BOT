@@ -439,6 +439,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('❤ 𝘿𝙤𝙣𝙖𝙩𝙞𝙤𝙣', url='https://upier.vercel.app/pay/tgnvs@airtel'),
             InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔰 𝐇𝐄𝐋𝐏', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
